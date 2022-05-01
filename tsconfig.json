@@ -1,0 +1,16 @@
+{
+    "include": ["**/*.tsx?", "custom.d.ts"],
+    "exclude": [
+        "node_modules",
+        "**/*.d.ts",
+        ".parcel-cache",
+        ".vscode",
+        "build"
+    ],
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "jsxImportSource": "react"
+    },
+    "files": ["./types.d.ts"]
+}

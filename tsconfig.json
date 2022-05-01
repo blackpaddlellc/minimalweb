@@ -5,6 +5,7 @@
         "**/*.d.ts",
         ".parcel-cache",
         ".vscode",
+        "dist",
         "build"
     ],
     "compilerOptions": {
